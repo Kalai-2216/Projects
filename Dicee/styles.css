@@ -38,4 +38,22 @@ footer {
   text-align: center;
   font-family:poppins;
 }
+@media (max-width:680px){
+  h1{
+    font-size: 3rem;
+  }
+  p{
+    font-size: larger;
+  }
+  img{
+    height: 50%;
+    width:50%
+  }
+  footer{
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 12px;
+  }
+}
 
